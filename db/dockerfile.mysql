@@ -1,11 +1,11 @@
 # specifying the Docker image 
 FROM mysql
 
-# exposing port 
+# exposing port
 EXPOSE 3306
 
-# copying MySQL config file to linux 
-ADD ./db/my.cnf /etc/mysql/conf.d/my.cnf # relative to context specified in docker-compose.yml
+# copying MySQL config file to a container
+ADD ./db/my.cnf /etc/mysql/conf.d/my.cnf
 
-#docker runに実行される
+# executed via docker run
 CMD ["mysqld"]
