@@ -5,7 +5,7 @@ services:
   mysql:
     build: # path to the dockerfile from which the image gets build
       context: .
-      dockerfile: ./db/dockerfile.mysql # relative to context
+      dockerfile: docker/db/dockerfile.mysql # relative to context
     volumes:
       - ./db:/docker-entrypoint-initdb.d  # relative to docker-compose.yml
     image: original_mysql_world # the name of the image
@@ -20,9 +20,9 @@ services:
   linux:
     build:
       context: .
-      dockerfile: ./app/dockerfile.app
+      dockerfile: docker/api/dockerfile.api
     volumes:
-     - ./app:/app
+     - ./api:/api
     image: api-app
     container_name: api-app-container
     networks:
