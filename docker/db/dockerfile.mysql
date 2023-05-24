@@ -1,0 +1,11 @@
+# specifying the Docker image 
+FROM mysql
+
+# exposing port
+EXPOSE 3306
+
+# copying MySQL config file to a container
+ADD ./docker/db/my.cnf /etc/mysql/conf.d/my.cnf
+
+# executed via docker run
+CMD ["mysqld"]
