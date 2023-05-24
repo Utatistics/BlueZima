@@ -19,7 +19,7 @@ The main components of the project are organized into the following directories:
 
 To get started with the project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-saas-project.git`
+1. Clone the repository: `git clone https://github.com/Utatistics/BlueZima.git`
 2. Install the necessary dependencies for the API: navigate to the `api` directory and run `pip install -r requirements.txt`.
 3. Configure the database: if needed, update the `my.cnf` file with the appropriate database configurations.
 4. Build and start the Docker containers: run `docker-compose up` in the root directory of the project.
