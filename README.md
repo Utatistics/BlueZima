@@ -27,9 +27,7 @@ git clone https://github.com/Utatistics/BlueZima.git
 ```{.bash .dark-background}
 pip install -r requirements.txt
 ```
-```{.bash .dark-background}
 The API is created using FastAPI framework, so run
-```
 ```{.bash .dark-background}
 uvicorn main:app --reload
 ```
@@ -40,7 +38,7 @@ docker-compose build
 docker-compose up -d
 ```
 in the root directory of the project. To install docker engine, see the [official docs](https://docs.docker.com/engine/install/).
-4. Access the web application: Open a web browser and go to [http://localhost:8000](http://localhost:8000) to access the GUI.
+4. Access the web application: Open a web browser and go to localhost to access the GUI.
 
 ## Contributing
 
