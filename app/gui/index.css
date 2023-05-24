@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  background-color: #333;
+  color: #fff;
+  width: 200px;
+  height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.content {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.5;
+}
+
