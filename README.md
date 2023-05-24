@@ -20,16 +20,22 @@ The main components of the project are organized into the following directories:
 If you're developer, follow these steps to get started with the project:
 
 1. Clone the repository:
-```shell
-`git clone https://github.com/Utatistics/BlueZima.git`
+```{.bash .dark-background}
+git clone https://github.com/Utatistics/BlueZima.git
 ```
-2. Install the necessary dependencies for the API: navigate to the `api` directory and run `pip install -r requirements.txt`. The API is created using FastAPI framework, so run
-```shell
+2. Install the necessary dependencies for the API: navigate to the `api` directory and run
+```{.bash .dark-background}
+pip install -r requirements.txt
+```
+```{.bash .dark-background}
+The API is created using FastAPI framework, so run
+```
+```{.bash .dark-background}
 uvicorn main:app --reload
 ```
 to activate the api. See the [official tutorial](https://fastapi.tiangolo.com/tutorial/) for more information.
 3. Build and start the Docker containers: simply run
-```shell
+```{.bash .dark-background}
 docker-compose build
 docker-compose up -d
 ```
