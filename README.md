@@ -1,6 +1,6 @@
 # BlueZima project
 
-This is a SaaS (Software as a Service) project inspired by Buffet Code Inc. It consists of an API, an app engine, and a GUI.
+This is a SaaS (Software as a Service) project inspired by Buffet Code Inc and zimablue. It, for now, consists of an API, an app engine, and a GUI.
 
 ## Main Components
 
